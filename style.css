@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar{
+  height: 90px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.629);
+  box-shadow: 0 0 20px rgba(156, 156, 156, 0.41);
+}
+.btn_send{
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #a148ff , rgb(255, 157, 0));
+  color: white;
+}
+header{
+  background: url('https://mobirise.com/extensions/glassm5/photo/assets/images/background5.jpg');
+  height: 800px;
+  font-weight: bold;
+}
+/*  */
+#photograper{
+  position: relative; padding-top: 128px;
+}
+.wrapper .left{
+  border-radius: 18px; 
+  width: 850px; 
+  background: rgba(255, 255, 255, 0.7); 
+  z-index: 1; 
+  height: 510px; 
+  line-height: 24px;
+}
+.wrapper .right{
+  width: 850px; 
+  position: absolute; 
+  right: -80px;
+}
+#our_services{
+  background: url('https://mobirise.com/extensions/glassm5/photo/assets/images/background3.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+#about_us{
+  background: url('https://mobirise.com/extensions/glassm5/photo/assets/images/background8.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
